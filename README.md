@@ -1,6 +1,7 @@
 # Svelte + Tailwind + Meteor
 
 Messing around: After `npm install` just run `npm run dev` which starts tailwind JIT watcher and meteor together.
+Note: if it's your first time installing `meteor`, you will likely see a `meteor: command not found` error message upon running `npm run dev`. `curl https://install.meteor.com/ | sh` worked for me over the standard `npm install -g meteor` command.
 
 ## Notes for running
 
