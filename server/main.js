@@ -11,6 +11,7 @@ import '/imports/api/messagesPublications';
 const dummyUsers = [
   { username: 'meteorite', password: 'password' },
   { username: 'ejolly', password: 'test' },
+  { username: 'wasi', password: 'test' },
 ];
 const dummyMessages = [
   {

@@ -5,7 +5,7 @@
   let password = "";
   let errMsg = "";
 
-  const supportedAccounts = ["meteorite", "ejolly"];
+  const supportedAccounts = ["meteorite", "ejolly", "wasi"];
   const handleSubmit = async () => {
     if (supportedAccounts.includes(username)) {
       Meteor.loginWithPassword(username, password, (err) => {
@@ -13,7 +13,7 @@
       });
     } else {
       errMsg =
-        "Sorry 'ejolly' and 'meteorite' are the only supported accounts at the moment";
+        "Sorry 'wasi', 'ejolly', and 'meteorite' are the only supported accounts at the moment";
     }
     // TODO: Renable when expanding accounts
     // Meteor.call("verifyOrMakeAccount", username, password);
